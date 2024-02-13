@@ -1,4 +1,4 @@
-# Hands-on Flask-05 : Handling SQL with Flask Web Application
+# Hands-on: Handling SQL with Flask Web Application
 
 Purpose of the this hands-on training is to give the students introductory knowledge of how to handle forms, how to connect to database and how to use sql within Flask web application on Amazon Linux 2023 EC2 instance. 
 
@@ -84,8 +84,6 @@ uses template files named `add-email.html` given under `templates` folder and  i
 - Check the database tables via SQLite Browser ( You can download the SQLite Browser from the link : 
 https://sqlitebrowser.org/)
 
-
-
 ## Part 2 - Write same application with MySQL and run on in your Local
 
 - Create an RDS database with following configurations: 
@@ -113,7 +111,6 @@ https://sqlitebrowser.org/)
 
 - Launch an Instance and pull your files in to it
 
-
 ## Part 3 - Install Python and Flask framework on Amazon Linux 2023 EC2 Instance 
 
 - Launch an Amazon EC2 instance using the Amazon Linux 2023 AMI with security group allowing SSH (Port 22) and HTTP (Port 8080) connections.
@@ -131,5 +128,3 @@ https://sqlitebrowser.org/)
 - Install `flask_mysql`.
 
 - Run application with Python
-
-
